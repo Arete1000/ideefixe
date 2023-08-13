@@ -1,0 +1,11 @@
+.square {
+  background-color: blueviolet;
+  height: 400px;
+  width: 400px;
+}
+
+.top-left-circle {
+  border-radius: 0% 0% 100% 0%;
+  height: 100px;
+  width: 100px;
+}
