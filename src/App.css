@@ -6,6 +6,15 @@
 
 .top-left-circle {
   border-radius: 0% 0% 100% 0%;
+  display:inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.top-right-circle {
+  border-radius: 0% 0% 0% 100%;
+  margin-left: 200px;
+  display:inline-block;
   height: 100px;
   width: 100px;
 }
