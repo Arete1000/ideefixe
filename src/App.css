@@ -1,7 +1,8 @@
 .square {
-  background-color: blueviolet;
+  background-color: rgb(233, 223, 241);
   height: 400px;
   width: 400px;
+  
 }
 
 .top-left-circle {

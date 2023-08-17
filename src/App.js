@@ -29,32 +29,41 @@ function App()
 
   return (
     <>
-      <div className="square">
-        
-        <div
-          className="top-left-circle"
-          onClick={darkenPink}
-          style={{
-            backgroundColor: getPink(),
-          }}
-        ></div>
-
-        <div
-          className="top-right-circle"
-          onClick={darkenBlue}
-          style={{
-            backgroundColor: getBlue(),
+      <div 
+      
+        className="square"
+          style=
+          {{
+            fontSize: 100,
+            fontFamily: "fantasy",
             
-          }}
-        >
-{/* contents of semi circle go here */}
+            
+                 
+           }} >
+
+      
         
-        
-        </div>
+             <div
+             className="top-left-circle"
+              onClick={darkenPink}
+             style={{
+               backgroundColor: getPink(),
+              }}
+             >
+            </div>
 
+              <div
+              className="top-right-circle"
+               onClick={darkenBlue}
+             style=
+             {{
+              backgroundColor: getBlue(),
+             }}
+              >
+            {/* contents of semi circle go here */}
+             </div> 
 
-
-
+             16
       </div>
     </>
   );
