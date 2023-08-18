@@ -2,20 +2,24 @@
   background-color: rgb(233, 223, 241);
   height: 400px;
   width: 400px;
-  
 }
 
 .top-left-circle {
   border-radius: 0% 0% 100% 0%;
-  display:inline-block;
+  display: inline-block;
   height: 100px;
   width: 100px;
 }
 
 .top-right-circle {
   border-radius: 0% 0% 0% 100%;
-  margin-left: 200px;
-  display:inline-block;
+  display: inline-block;
   height: 100px;
   width: 100px;
+}
+
+.top-middle {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
 }
